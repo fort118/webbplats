@@ -31,7 +31,9 @@ site.use(pagefind());
 site.use(picture());
 site.use(reading_info());
 site.use(relations());
-site.use(relativeUrls());
+site.use(relativeUrls({
+    extentions: [".html", ".css"]
+}));
 site.use(resolve_urls());
 site.use(robots());
 site.use(sitemap());

@@ -17,7 +17,7 @@ Skansen började byggas under senare delen av 1940 och byggdes ut fram till 1943
 
 Det unika med Sjöänd Skans är att landsvägen som gå genom skansen är kvar i sin nuvarande sträckning, varför man lätt kan föreställa sig skansens ursprungliga skick.
 
-<img src="beskrivning-1.jpg" transform-images="avif webp jpg 300@2" alt="Skansen sedd från fiendesidan" />
+<img src="/img/beskrivning-1.jpg" transform-images="avif webp jpg 300@2" alt="Skansen sedd från fiendesidan" />
 Skansen sedd från "fiendesidan"
 
 Ca 3 km öster om skansen längs vägen mot Lenungshammar, alldeles intill Brittjärn, var vägen förberedd för sprängning i händelse fienden skulle komma förbi skansens försvarslinjer. Mellan vägen och bergsidan är 12 sprängkistor placerade. Dessa består av 10" cementrör som sticker upp omkring en halv meter ovan marken. En av kistorna är välbevarad, medan de andra befinner sig i olika stadier av förfall. Den bevarade kistan är försedd med ett plåtlock på ovansidan och är fäst med en metallbygel. Under plåtlocket finns ett cementlock och lyfter man på detta finner man en plåtbehållare men en 6-8 cm stor öppning med ett lock fastsatt med en liten kätting. Cementrören är ca 2 meter djupa. Det finns även anledning att misstänka att vägövergången över vattendraget mellan Lelången och Lilla Ristjärn var förberedd för sprängning.
