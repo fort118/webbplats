@@ -5,7 +5,7 @@ title: Beskrivning
 
 # Beskrivning
 
-Sjöänd skans (Skans 118) är en relativt liten anläggning, dock välbevarad, belägen i södra delen av Glaskogens naturreservat. Anläggningen består av 33 gevärsvärn, grupperade på båda sidor om den väg, som skansen hade till uppgift att spärra. Samtliga värn är förbundna med nedsprängda värngångar, ca 2 m djupa, och försedda med s k kallmurar, som i krökarna är försedda med cementförstärkningar. De båda delarna av anläggningen är förbundna av en tunnel under vägen. Denna är för närvarande delvis blockerad. Totalt ingår ca 1600 m värngångar!
+Sjöänd skans (Skans 118) är en relativt liten anläggning, dock välbevarad, belägen i södra delen av Glaskogens naturreservat. Anläggningen består av 33 gevärsvärn, grupperade på båda sidor om den väg, som skansen hade till uppgift att spärra. Samtliga värn är förbundna med nedsprängda värngångar, ca 2 m djupa, och försedda med s k kallmurar, som i krökarna är försedda med cementförstärkningar. De båda delarna av anläggningen är förbundna av en [tunnel](/tunnel) under vägen. Denna är för närvarande delvis blockerad. Totalt ingår ca 1600 m värngångar!
 
 Samtliga gevärsvärn är öppna. Vid några av värnen har man tagit naturen till hjälp för att få skydd.
 
@@ -17,8 +17,10 @@ Skansen började byggas under senare delen av 1940 och byggdes ut fram till 1943
 
 Det unika med Sjöänd Skans är att landsvägen som gå genom skansen är kvar i sin nuvarande sträckning, varför man lätt kan föreställa sig skansens ursprungliga skick.
 
+<figure>
 <img src="/img/beskrivning-1.jpg" transform-images="avif webp jpg 300@2" alt="Skansen sedd från fiendesidan" />
-Skansen sedd från "fiendesidan"
+<figcaption>Skansen sedd från "fiendesidan"</figcaption>
+</figure>
 
 Ca 3 km öster om skansen längs vägen mot Lenungshammar, alldeles intill Brittjärn, var vägen förberedd för sprängning i händelse fienden skulle komma förbi skansens försvarslinjer. Mellan vägen och bergsidan är 12 sprängkistor placerade. Dessa består av 10" cementrör som sticker upp omkring en halv meter ovan marken. En av kistorna är välbevarad, medan de andra befinner sig i olika stadier av förfall. Den bevarade kistan är försedd med ett plåtlock på ovansidan och är fäst med en metallbygel. Under plåtlocket finns ett cementlock och lyfter man på detta finner man en plåtbehållare men en 6-8 cm stor öppning med ett lock fastsatt med en liten kätting. Cementrören är ca 2 meter djupa. Det finns även anledning att misstänka att vägövergången över vattendraget mellan Lelången och Lilla Ristjärn var förberedd för sprängning.
 

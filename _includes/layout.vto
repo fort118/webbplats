@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Här får du information om Sjöänd Skans i Glaskogen">
-    <link rel="stylesheet" href="styles.css" inline>
+    <link rel="stylesheet" href="/styles.css" inline>
     <title>{{ title }}{{ if title }} | {{ /if }}Fort 118 - Sjöänd Skans</title>
   </head>
   <body>
@@ -26,9 +26,7 @@
           <a href="/">Hem</a>
         </li>
         {{ for item of nav.menu().children }}
-          <li>
-            {{ include "templates/menu_item.vto" { item } }}
-          </li>
+          {{ include "templates/menu_item.vto" { item } }}
         {{ /for }}
       </ul>
     </nav>
@@ -37,5 +35,25 @@
         {{ content }}
       </article>
     </main>
+    <footer>
+      <h4>Länkar</h4>
+      <ul>
+        <li>
+          <a href="https://visitvarmland.com/torsby/kultur-historia/natursevardheter/militarhistoria/skans-179-holjes" target="_blank">Skans 179</a>
+        </li>
+        <li>
+          <a href="https://www.sfv.se/vara-fastigheter/sverige/varmlands-lan/eda-skans/" target="_blank">Eda skans</a>
+        </li>
+        <li>
+          <a href="https://visitvarmland.com/eda/kultur-historia/natursevardheter/skansen-hultet" target="_blank">Skansen Hultet</a>
+        </li>
+        <li>
+          <a href="https://glaskogen.se" target="_blank">Stiftelsen Glaskogen</a>
+        </li>
+        <li>
+          <a href="https://g-mf.se/" target="_blank">Gästrike militärhistoriska förening</a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>

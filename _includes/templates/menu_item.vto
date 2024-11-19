@@ -1,15 +1,7 @@
-{{ if item.data.url }}
-  <a href="{{ item.data.url }}">
-    {{ item.data.title }}
-  </a>
-{{ else }}
-  <span>{{ item.data.basename }}</span>
-{{ /if }}
-
-<ul>
-  {{ for child of item.children }}
+{{ if item.data.url && item.data.in_menu !== false }}
   <li>
-    {{ include "templates/menu_item.vto" { item: child } }}
+    <a href="{{ item.data.url }}">
+      {{ item.data.title }}
+    </a>
   </li>
-  {{ /for }}
-</ul>
+{{ /if }}

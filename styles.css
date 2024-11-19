@@ -7,8 +7,42 @@ body {
 }
 
 nav {
+  padding-top: 3.2rem;
+  padding-bottom: 0.8em;
+}
+
+nav, footer {
   background-color: #f0f0f0;
-  padding-top: 2rem;
+}
+
+footer {
+  padding: 0.8em 1.6rem;
+}
+
+footer h4 {
+  font-size: 1.6rem;
+  margin: 0.8em 0;
+  color: #666;
+  text-transform: uppercase;
+}
+
+footer ul {
+  list-style-type: "\1F517";
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+
+  & a {
+    padding-left: .8em;
+  }
+}
+
+figure img {
+  border-radius: 6px;
+}
+
+figcaption {
+  font-style: italic;
 }
 
 .menu {
@@ -22,7 +56,7 @@ nav {
 
   & a {
     background-color: #FECC02;
-    padding: calc(1.6em / 2);
+    padding: 0.4em 0.8em;
     border-radius: 8px;
     display: block;
     color: black;
@@ -73,8 +107,8 @@ header {
     height: 300px;
     object-fit: cover;
   }
-  
-  
+
+
   & figure {
     width: 128px;
     height: 128px;
