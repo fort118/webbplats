@@ -9,14 +9,19 @@
     <header>
       <a href="/">Fort 118</a>
     </header>
-    <main>
+    <nav>
       <ul class="menu">
+        <li>
+          <a href="/">Hem</a>
+        </li>
         {{ for item of nav.menu().children }}
           <li>
             {{ include "templates/menu_item.vto" { item } }}
           </li>
         {{ /for }}
       </ul>
+    </nav>
+    <main>
       <article>
         {{ content }}
       </article>
