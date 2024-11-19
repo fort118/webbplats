@@ -21,7 +21,9 @@ import transform_images from "lume/plugins/transform_images.ts";
 const site = lume();
 
 site.use(esbuild());
-site.use(inline());
+site.use(inline({
+    extensions: [ ".css" ]
+}));
 site.use(lightningcss());
 site.use(metas());
 site.use(minify_html());
