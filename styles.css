@@ -23,6 +23,12 @@ nav {
     padding: calc(1.6em / 2);
     border-radius: 8px;
     display: block;
+    color: black;
+    text-decoration: none;
+  }
+
+  & a:hover {
+    text-decoration: underline;
   }
 }
 
