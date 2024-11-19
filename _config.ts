@@ -42,5 +42,6 @@ site.use(slugify_urls());
 site.use(transform_images());
 
 site.copy("/styles.css");
+site.copy("/logo.svg");
 
 export default site;

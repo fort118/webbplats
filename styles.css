@@ -10,6 +10,20 @@ nav {
   background-color: #f0f0f0;
 }
 
+header img {
+  width: 128px;
+  height: 128px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  z-index: 0;
+}
+
+header a {
+  z-index: 1;
+}
 
 .menu {
   list-style: none;
@@ -45,6 +59,7 @@ header {
   place-items: center;
   background-color: #006AA7;
   color: #FECC02;
+  position: relative;
 
   & a {
     flex: 1;
