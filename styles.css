@@ -10,7 +10,14 @@ nav {
   background-color: #f0f0f0;
 }
 
-header img {
+header .hero {
+  width: 100vw;
+  height: 300px;
+  object-fit: cover;
+}
+
+
+header .logo {
   width: 128px;
   height: 128px;
   position: absolute;
@@ -57,8 +64,7 @@ header {
   height: 64px;
   width: 100vw;
   place-items: center;
-  background-color: #006AA7;
-  color: #FECC02;
+  background-color: #004b88;
   position: relative;
 
   & a {
@@ -69,6 +75,7 @@ header {
     text-decoration: none;
     font-weight: 700;
     font-size: 1.2rem;
+    text-transform: uppercase;
   }
 }
 
