@@ -60,12 +60,17 @@ article {
 
 header {
   display: flex;
-  flex-flow: row nowrap;
-  height: 64px;
-  width: 100vw;
-  place-items: center;
-  background-color: #004b88;
-  position: relative;
+  flex-flow: column nowrap;
+
+  & .band {
+    display: flex;
+    flex-flow: row nowrap;
+    place-items: center;
+    position: relative;
+    background-color: #004b88;
+    height: 64px;
+    width: 100vw;
+  }
 
   & a {
     flex: 1;
