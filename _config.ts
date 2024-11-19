@@ -39,7 +39,9 @@ site.use(resolve_urls());
 site.use(robots());
 site.use(sitemap());
 site.use(slugify_urls());
-site.use(transform_images());
+site.use(transform_images({
+    extensions: [".jpg"]
+}));
 
 site.copy("/styles.css");
 site.copy("/logo.svg");
