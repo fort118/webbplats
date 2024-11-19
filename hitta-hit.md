@@ -17,10 +17,10 @@ Följ skylt 5 km öster Årjäng mot Tjärn. Kör på den enskilda vägens ände
 
 Följ skylten mot Barlingshult och kör till den enskilda vägens ände. Ta höger och fortsätt 1,5 km tills du är vid skansen.
 
-## Från Karlanda, via väg 172 och 646
+### Från Karlanda, via väg 172 och 646
 
 Följ skylten vid Södra Ström mot Glaskogens naturreservat. Skansen är längst med denna väg 646 efter 9,7 km.
 
-## Från Glava, via väg 647/646
+### Från Glava, via väg 647/646
 
 Vid Glava kyrka är det skyltat mot Glaskogens naturreservat. Kör denna väg i 24 km till skansen.
