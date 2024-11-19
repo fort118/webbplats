@@ -8,6 +8,7 @@ body {
 
 nav {
   background-color: #f0f0f0;
+  padding-top: 2rem;
 }
 
 .menu {
@@ -16,6 +17,8 @@ nav {
   margin: 0;
   display: flex;
   gap: 1rem;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
 
   & a {
     background-color: #FECC02;
