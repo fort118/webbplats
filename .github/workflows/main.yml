@@ -1,5 +1,10 @@
 name: build
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 on:
   push:
     branches: [main]
@@ -16,16 +21,16 @@ jobs:
           [2.0.0]
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Cache images
         id: image-cache
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         with:
           path: |
             _cache
           key: ${{ runner.os }}-img
       - name: Setup Deno
-        uses: denoland/setup-deno@main
+        uses: denoland/setup-deno@v2
         with:
           deno-version: ${{ matrix.deno }}
       - run: deno task build
