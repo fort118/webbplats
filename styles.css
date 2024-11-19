@@ -87,3 +87,7 @@ header {
 article {
   padding: 1.6rem;
 }
+
+picture {
+  display: contents;
+}

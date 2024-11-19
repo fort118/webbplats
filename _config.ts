@@ -20,6 +20,8 @@ import transform_images from "lume/plugins/transform_images.ts";
 
 const site = lume();
 
+site.loadAssets([".css"]);
+
 site.use(esbuild());
 site.use(inline());
 site.use(lightningcss());
@@ -42,8 +44,5 @@ site.use(slugify_urls());
 site.use(transform_images({
     extensions: [".jpg"]
 }));
-
-site.copy("/styles.css");
-site.copy("/logo.svg");
 
 export default site;
