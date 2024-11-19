@@ -26,12 +26,14 @@ jobs:
         uses: denoland/setup-deno@v2
         with:
           deno-version: ${{ matrix.deno }}
-      - run: deno task build
+      - run: deno task build --location=https://enjikaka.github.io/fort118/
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
       - name: Upload static files as artifact
         id: deployment
         uses: actions/upload-pages-artifact@v3
         with:
-          path: _site
+          path: _site/
 
  # Deployment job
   deploy:
