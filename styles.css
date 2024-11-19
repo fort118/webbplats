@@ -32,6 +32,11 @@ nav {
   }
 }
 
+article {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 header {
   display: flex;
   flex-flow: row nowrap;
