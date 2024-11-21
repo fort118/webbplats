@@ -15,15 +15,22 @@ nav, footer {
   background-color: #f0f0f0;
 }
 
-footer {
-  padding: 0.8em 1.6rem;
+main {
+  min-height: 50vh;
 }
 
-footer h4 {
+footer {
+  padding: 0.8em 1.6rem;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+footer strong {
   font-size: 1.6rem;
   margin: 0.8em 0;
   color: #666;
   text-transform: uppercase;
+  display: block;
 }
 
 footer ul {
@@ -68,9 +75,18 @@ figcaption {
   }
 }
 
-article {
+article,
+footer {
   max-width: 800px;
   margin: 0 auto;
+}
+
+article {
+  & p {
+    hyphens: auto;
+    text-align: justify;
+    word-break: break;
+  }
 }
 
 header {
