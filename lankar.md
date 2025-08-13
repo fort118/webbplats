@@ -3,8 +3,8 @@ layout: layout.vto
 title: Länkar
 ---
 
-<h4>Länkar</h4>
-<h5>Skanser</h5>
+<h1>Länkar</h1>
+<h2>Skanser</h2>
 <ul>
 <li>
     <a href="https://visitvarmland.com/torsby/kultur-historia/natursevardheter/militarhistoria/skans-179-holjes" target="_blank">Skans 179</a>
@@ -17,7 +17,7 @@ title: Länkar
   </li>
 </ul>
 
-<h5>Muséer</h5>
+<h2>Muséer</h2>
 <ul>
   <li>
     <a href="https://www.beredskapsmuseet.com" target="_blank">Beredskapsmuseet i Helsingborg</a>
@@ -48,7 +48,7 @@ title: Länkar
   </li>
 </ul>
 
-<h5>Fästningar</h5>
+<h2>Fästningar</h2>
 <ul>
   <li>
     <a href="https://www.forsvarsbygg.no/no/festningene/" target="_blank">Norska fästningar</a>
@@ -61,7 +61,7 @@ title: Länkar
   </li>
 </ul>
 
-<h5>Föreningar</h5>
+<h2>Föreningar</h2>
 <ul>
   <li>
     <a href="https://g-mf.se/" target="_blank">Gästrike militärhistoriska förening</a>
@@ -74,7 +74,7 @@ title: Länkar
   </li>
 </ul>
 
-<h5>Övrigt</h5>
+<h2>Övrigt</h2>
 <ul>
   <li>
     <a href="https://glaskogen.se" target="_blank">Stiftelsen Glaskogen</a>

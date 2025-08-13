@@ -11,8 +11,12 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "DIN Schablonierschrift", sans-serif;
   text-transform: uppercase;
+}
+
+h1 {
+  font-family: "DIN Schablonierschrift", sans-serif;
+  font-size: 2rem;
 }
 
 nav {
