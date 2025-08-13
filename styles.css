@@ -1,5 +1,5 @@
-@import "fonts/d-din.css";
-@import "fonts/din-schablonierschrift.css";
+@import "./fonts/d-din.css";
+@import "./fonts/din-schablonierschrift.css";
 
 body {
   margin: 0;
@@ -7,6 +7,12 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "DIN Schablonierschrift", sans-serif;
+  text-transform: uppercase;
 }
 
 nav {
@@ -142,3 +148,5 @@ article {
 picture {
   display: contents;
 }
+
+@view-transition { navigation: auto; }
