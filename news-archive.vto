@@ -1,0 +1,12 @@
+---
+title: Nyheter
+layout: layout.vto
+url: /nyheter/
+---
+<section>
+  <h1>Nyheter</h1>
+  <div class="posts-list">
+    {{ set postslist = search.pages("type=news") }}
+    {{ include "templates/posts_list.vto" }}
+  </div>
+</section>

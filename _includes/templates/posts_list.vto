@@ -1,0 +1,13 @@
+<ul>
+{{ for post of postslist }}
+    <li>
+        <a href="{{ post.url |> url }}">
+            {{ if post.title }}
+                <strong class="post-list--title">{{ post.title }}</strong>
+            {{ else }}
+                <code>{{ post.url }}</code>
+            {{ /if }}
+        </a>
+    </li>
+{{ /for }}
+</ul>
