@@ -154,3 +154,27 @@ picture {
 }
 
 @view-transition { navigation: auto; }
+
+figure {
+  max-width: 100%;
+}
+
+article > figure {
+  max-width: 600px;
+}
+
+figure img {
+  width: 100%;
+}
+
+.image-grid {
+  width: 100%;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.image-grid figure {
+  margin: 0;
+  max-width: 100%;
+}

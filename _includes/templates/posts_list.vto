@@ -1,5 +1,5 @@
 <ul>
-{{ for post of postslist }}
+{{ for post of postslist |> reverse }}
     <li>
         <a href="{{ post.url |> url }}">
             {{ if post.title }}
