@@ -1,13 +1,22 @@
 {
   "nodeModulesDir": "auto",
   "imports": {
-    "lume/": "https://deno.land/x/lume@v3.0.6/",
-    "lume/jsx-runtime": "https://deno.land/x/ssx@v0.1.12/jsx-runtime.ts"
+    "lume/": "https://cdn.jsdelivr.net/gh/lumeland/lume@3.2.2/",
+    "lume/jsx-runtime": "https://cdn.jsdelivr.net/gh/oscarotero/ssx@0.1.14/jsx-runtime.ts"
   },
   "tasks": {
-    "lume": "echo \"import 'lume/cli.ts'\" | deno run -A -",
-    "build": "deno task lume",
-    "serve": "deno task lume -s"
+    "lume": {
+      "description": "Run Lume command",
+      "command": "deno run -A lume/cli.ts"
+    },
+    "build": {
+      "description": "Build the site for production",
+      "command": "deno task lume"
+    },
+    "serve": {
+      "description": "Run and serve the site for development",
+      "command": "deno task lume -s"
+    }
   },
   "compilerOptions": {
     "types": [
@@ -22,7 +31,13 @@
   ],
   "lint": {
     "plugins": [
-      "https://deno.land/x/lume@v3.0.6/lint.ts"
-    ]
-  }
+      "https://cdn.jsdelivr.net/gh/lumeland/lume@3.2.2/lint.ts"
+    ],
+    "rules": {
+      "exclude": [
+        "no-import-prefix"
+      ]
+    }
+  },
+  "lock": false
 }
