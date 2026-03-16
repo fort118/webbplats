@@ -10,4 +10,18 @@ Kamratföreningen för beverandet av Sjöänd Skans bildades den 29 april 2007 n
 
 [Stadgar för föreningen](/stadgar) har antagits vid ett möte 2008-06-16.
 
-Ordförande Björn Wiklund, sekreterare Christian Nilsson, Kassör Malin Öhman, Ledamot Åke Ericsson och Per-Olof Persson.
+## Styrelsen
+
+| Post      | Namn |
+| ----------- | ----------- |
+| Ordförande | Jeremy Karlsson |
+| Kassör | Kenneth Larsson |
+| Sekreterare | Alf Svanström |
+| Ledamot | Åke Ericsson |
+| Ledamot | Per-Olof Persson |
+| Suppleant | ? |
+| Suppleant | ? |
+
+## Kontakt
+
+Maila oss på [info@fort118.se](mailto:info@fort118.se).

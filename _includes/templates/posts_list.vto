@@ -1,7 +1,10 @@
-<ul>
+<ul class="posts-list">
 {{ for post of postslist |> reverse }}
     <li>
         <a href="{{ post.url |> url }}">
+            <time datetime="{{ post.date | date }}">
+                {{ post.date |> date('yyyy-MM-dd') }}
+            </time>
             {{ if post.title }}
                 <strong class="post-list--title">{{ post.title }}</strong>
             {{ else }}

@@ -178,3 +178,38 @@ figure img {
   margin: 0;
   max-width: 100%;
 }
+
+.posts-list {
+  padding: 0;
+  list-style: none;
+}
+
+.posts-list a {
+  text-decoration: none;
+  display: flex;
+  padding: .5em 0;
+  color: inherit;
+  align-items: center;
+  gap: .5rem;
+}
+
+.posts-list a:hover {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+.posts-list time {
+  background-color: #f0f0f0;
+  padding: .5em;
+  border-radius: 6px;
+  display: inline-block;
+  font-size: .8em;
+  text-rendering: geometricPrecision;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: .5em 1em;
+}

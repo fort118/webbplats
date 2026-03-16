@@ -3,6 +3,7 @@
   "imports": {
     "@types/estree": "npm:@types/estree@^1.0.8",
     "@types/node": "npm:@types/node@^25.5.0",
+    "date-fns": "npm:date-fns@^4.1.0",
     "lume/": "https://cdn.jsdelivr.net/gh/lumeland/lume@3.2.2/",
     "lume/jsx-runtime": "https://cdn.jsdelivr.net/gh/oscarotero/ssx@0.1.14/jsx-runtime.ts"
   },
@@ -68,5 +69,6 @@
       "ffi": true,
       "sys": true
     }
-  }
+  },
+  "allowScripts": ["npm:esbuild@0.27.3", "npm:sharp@0.34.5"]
 }
