@@ -1,6 +1,6 @@
 ---
 slug: foreningen
-layout: layout.vto
+layout: layouts/page.vto
 title: Föreningen
 ---
 

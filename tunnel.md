@@ -1,5 +1,5 @@
 ---
-layout: layout.vto
+layout: layouts/page.vto
 title: Tunnel
 in_menu: false
 ---

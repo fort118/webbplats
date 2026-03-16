@@ -94,6 +94,11 @@ footer {
   margin: 0 auto;
 }
 
+.news-archive {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 article {
   & p {
     hyphens: auto;
@@ -145,7 +150,7 @@ header {
   }
 }
 
-article {
+main {
   padding: 1.6rem;
 }
 
