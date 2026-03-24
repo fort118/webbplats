@@ -1,10 +1,9 @@
 ---
 layout: layouts/page.vto
-title: Stadgar
+title: Stadgar för Kamratföreningen Fort 118
+slug: stadgar
 in_menu: false
 ---
-
-# Stadgar för Kamratföreningen Fort 118
 
 Antagna den 16/6 2008
 

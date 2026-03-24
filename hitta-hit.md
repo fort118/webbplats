@@ -3,8 +3,6 @@ layout: layouts/page.vto
 title: Hitta hit
 ---
 
-# Hitta hit
-
 Det ca 2,2 ha stora området är beläget i naturreservatet Glaskogen nordväst i Årjäng kommun.
 
 ## Vägbeskrivning

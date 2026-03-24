@@ -3,8 +3,6 @@ layout: layouts/page.vto
 title: Beskrivning
 ---
 
-# Beskrivning
-
 Sjöänd skans (Skans 118) är en relativt liten anläggning, dock välbevarad, belägen i södra delen av Glaskogens naturreservat. Anläggningen består av 33 gevärsvärn, grupperade på båda sidor om den väg, som skansen hade till uppgift att spärra. Samtliga värn är förbundna med nedsprängda värngångar, ca 2 m djupa, och försedda med s k kallmurar, som i krökarna är försedda med cementförstärkningar. De båda delarna av anläggningen är förbundna av en [tunnel](/tunnel) under vägen. Denna är för närvarande delvis blockerad. Totalt ingår ca 1600 m värngångar!
 
 Samtliga gevärsvärn är öppna. Vid några av värnen har man tagit naturen till hjälp för att få skydd.

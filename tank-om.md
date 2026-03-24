@@ -4,8 +4,6 @@ title: Tänk om...
 slug: tank-om
 ---
 
-# Tänk om...
-
 Detta kunde ha hänt!
 
 Klockan 05.30 i går morse gick tyska trupper över gränsen och nedkämpade den första försvarslinjen. Sverige befinner sig i krig. Från sydväst hörs kraftigt kanonmuller och enstaka flygplan passerar på låg höjd. I Sjöänd skans råder full beredskap. Skyttevärnen är besatta och det hörs eldgivning från vägen mot Årjäng. Plötsligt kommer ett tiotal soldater springande utefter vägen. "Fienden befinner sig bara 500 meter bort" rapporterar gruppchefen. Så hörs rasslet från en stridsvagn och plötsligt kommer den fram i vägkröken.

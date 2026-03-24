@@ -3,7 +3,6 @@ layout: layouts/page.vto
 title: Länkar
 ---
 
-<h1>Länkar</h1>
 <h2>Skanser</h2>
 <ul>
 <li>
