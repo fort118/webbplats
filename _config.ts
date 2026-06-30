@@ -21,6 +21,7 @@ const site = lume();
 
 site.add([".css", ".woff2"]);
 site.add("/img");
+site.add("/dokument");
 
 site.use(esbuild());
 site.use(lightningcss());
