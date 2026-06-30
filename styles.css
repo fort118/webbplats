@@ -1,6 +1,19 @@
 @import "./fonts/d-din.css";
 @import "./fonts/din-schablonierschrift.css";
 
+:root {
+  --paper: #E5DEC9;
+  --surface: #F1EBD8;
+  --ink: #22231D;
+  --olive: #3E4630;
+  --olive-dark: #2B2E22;
+  --field-grey: #6B6F5B;
+  --mustard: #B8902E;
+  --rust: #8A3B25;
+  --line: #D8D0B6;
+  --cream: #EFE9D6;
+}
+
 body {
   margin: 0;
   font-family: "D DIN", sans-serif;
@@ -8,6 +21,8 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
+  background-color: var(--paper);
+  color: var(--ink);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -17,6 +32,24 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-family: "DIN Schablonierschrift", sans-serif;
   font-size: 2rem;
+  letter-spacing: 0.04em;
+}
+
+h2, h3, h4 {
+  font-family: "Oswald", "D DIN", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+}
+
+article h1,
+article h2 {
+  border-bottom: 3px double var(--olive);
+  padding-bottom: 0.2em;
+}
+
+a {
+  color: var(--rust);
+  text-underline-offset: 2px;
 }
 
 nav {
@@ -24,8 +57,8 @@ nav {
   padding-bottom: 0.8em;
 }
 
-nav, footer {
-  background-color: #f0f0f0;
+nav {
+  background-color: var(--olive);
 }
 
 main {
@@ -33,15 +66,17 @@ main {
 }
 
 footer {
-  padding: 0.8em 1.6rem;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
+  padding: 1.2em 1.6rem;
+  border-top: 3px double var(--mustard);
+  background-color: var(--olive-dark);
+  color: #9AA088;
 }
 
 footer strong {
-  font-size: 1.6rem;
-  margin: 0.8em 0;
-  color: #666;
+  font-family: "DIN Schablonierschrift", sans-serif;
+  font-size: 1.5rem;
+  margin: 0.4em 0 0.6em;
+  color: var(--cream);
   text-transform: uppercase;
   display: block;
 }
@@ -57,12 +92,11 @@ footer ul {
   }
 }
 
-figure img {
-  border-radius: 6px;
-}
-
 figcaption {
-  font-style: italic;
+  font-family: "Special Elite", monospace;
+  font-size: 0.85rem;
+  color: var(--field-grey);
+  margin-top: 0.4em;
 }
 
 .menu {
@@ -70,21 +104,27 @@ figcaption {
   padding: 0.8rem 1.6rem;
   margin: 0;
   display: flex;
-  gap: 1rem;
+  gap: 0.6rem;
   flex-flow: row wrap;
-  justify-content: space-evenly;
+  justify-content: center;
 
   & a {
-    background-color: #FECC02;
-    padding: 0.4em 0.8em;
-    border-radius: 8px;
+    font-family: "Oswald", "D DIN", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.9rem;
+    border: 1px solid var(--field-grey);
+    padding: 0.35em 0.85em;
+    border-radius: 2px;
     display: block;
-    color: black;
+    color: var(--cream);
     text-decoration: none;
   }
 
   & a:hover {
-    text-decoration: underline;
+    background-color: var(--mustard);
+    border-color: var(--mustard);
+    color: var(--olive-dark);
   }
 }
 
@@ -110,21 +150,22 @@ article {
 header {
   display: flex;
   flex-flow: column nowrap;
+  position: relative;
 
   & .band {
     display: grid;
     place-items: center;
     position: relative;
-    background-color: #004b88;
+    background-color: var(--olive-dark);
     height: 64px;
     width: 100vw;
   }
 
-  & a {
+  & .band a {
     flex: 1;
     display: grid;
     place-items: center;
-    color: inherit;
+    color: black;
     text-decoration: none;
     font-family: "DIN Schablonierschrift", sans-serif;
     z-index: 1;
@@ -139,6 +180,7 @@ header {
     width: 100vw;
     height: 300px;
     object-fit: cover;
+    filter: saturate(0.8) sepia(0.08) contrast(1.02);
   }
 
   & figure {
@@ -148,6 +190,24 @@ header {
     margin: 0;
     transform: translateY(-30px);
   }
+}
+
+.stamp {
+  position: absolute;
+  top: 1.2rem;
+  right: 1.2rem;
+  z-index: 2;
+  font-family: "Special Elite", monospace;
+  font-size: 0.7rem;
+  line-height: 1.15;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--rust);
+  border: 2px solid var(--rust);
+  padding: 0.4em 0.6em;
+  transform: rotate(-7deg);
+  opacity: 0.92;
+  background-color: rgba(229, 222, 201, 0.55);
 }
 
 main {
@@ -172,6 +232,12 @@ figure img {
   width: 100%;
 }
 
+main figure img {
+  border: 1px solid var(--field-grey);
+  border-radius: 2px;
+  filter: saturate(0.82) sepia(0.12) contrast(1.02);
+}
+
 .image-grid {
   width: 100%;
   display: grid;
@@ -193,28 +259,60 @@ figure img {
   text-decoration: none;
   display: flex;
   padding: .5em 0;
-  color: inherit;
+  color: var(--ink);
   align-items: center;
   gap: .5rem;
 }
 
 .posts-list a:hover {
-  background-color: rgba(0, 0, 0, 0.02);
+  background-color: rgba(62, 70, 48, 0.06);
 }
 
 .posts-list time {
-  background-color: #f0f0f0;
-  padding: .5em;
-  border-radius: 6px;
+  font-family: "Special Elite", monospace;
+  background-color: var(--olive);
+  color: var(--cream);
+  padding: .4em .6em;
+  border-radius: 2px;
   display: inline-block;
   font-size: .8em;
   text-rendering: geometricPrecision;
 }
 
-table, th, td {
-  border: 1px solid black;
+.post-list--title {
+  font-family: "Oswald", "D DIN", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 32rem;
+  background-color: var(--surface);
 }
 
 th, td {
+  border: none;
+  border-bottom: 1px solid var(--line);
   padding: .5em 1em;
+  text-align: left;
+}
+
+thead th {
+  font-family: "Oswald", "D DIN", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.8rem;
+  color: var(--field-grey);
+  border-bottom: 2px solid var(--mustard);
+}
+
+tbody td:first-child {
+  font-family: "Oswald", "D DIN", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 0.85rem;
+  color: var(--field-grey);
 }
